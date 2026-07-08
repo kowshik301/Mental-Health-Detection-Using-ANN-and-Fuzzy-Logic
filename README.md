@@ -1,141 +1,137 @@
-# Mental Health Detection Using ANN and Fuzzy Logic
+# 🧠 Mental Health Detection Using ANN and Fuzzy Logic
 
-## Overview
+## 📖 Overview
 
-Mental health is one of the most important aspects of human well-being. Early identification of mental health problems can help individuals receive timely support and treatment.
+Mental health is an essential part of overall well-being. Early detection of mental health conditions can help individuals seek timely support and treatment. This project presents a hybrid Artificial Intelligence model that combines **Artificial Neural Networks (ANN)** and **Fuzzy Logic** to evaluate an individual's mental health based on lifestyle and behavioral parameters.
 
-This project presents a hybrid Artificial Intelligence model that combines Artificial Neural Networks (ANN) and Fuzzy Logic to predict the mental health condition of an individual based on behavioral and lifestyle parameters.
-
----
-
-## Features
-
-- Mental health prediction
-- Fuzzy Logic based decision making
-- Artificial Neural Network classification
-- User friendly prediction system
-- Early detection support
+The system analyzes user inputs such as sleep duration, stress level, mood, physical activity, and social interaction to predict the overall mental health condition.
 
 ---
 
-## Input Parameters
+## ✨ Features
 
-- Sleep Hours
-- Stress Level
-- Mood
-- Physical Activity
-- Social Interaction
+- Hybrid AI model using ANN and Fuzzy Logic
+- Mental health prediction based on user inputs
+- Handles uncertainty using fuzzy inference
+- Intelligent decision support system
+- Simple and easy-to-understand implementation
 
 ---
 
-## Technologies Used
+## 📊 Input Parameters
+
+- 😴 Sleep Duration
+- 😟 Stress Level
+- 😊 Mood
+- 🏃 Physical Activity
+- 👥 Social Interaction
+
+---
+
+## 🛠 Technologies Used
 
 - Python
 - Jupyter Notebook
 - NumPy
 - Pandas
 - Matplotlib
-- TensorFlow/Keras
 - Scikit-Learn
+- TensorFlow / Keras
 - Scikit-Fuzzy
 
 ---
 
-## System Architecture
+## 📂 Project Structure
 
-User Input
-
-↓
-
-Data Preprocessing
-
-↓
-
-Fuzzy Logic Inference
-
-↓
-
-Artificial Neural Network
-
-↓
-
-Mental Health Prediction
-
-↓
-
-Output Result
+```text
+Mental-Health-Detection-Using-ANN-and-Fuzzy-Logic/
+│
+├── documentation/
+│   ├── Project_Report.docx
+│   ├── Project_Presentation.pptx
+│   └── Research_Paper.pdf
+│
+├── images/
+│   └── architecture_diagram.png
+│
+├── notebooks/
+│   └── mental_health_detection.ipynb
+│
+├── dataset/
+│
+├── results/
+│
+├── README.md
+└── requirements.txt
+```
 
 ---
 
-## Installation
+## ⚙️ How to Run
+
+### Clone the repository
 
 ```bash
-git clone https://github.com/YourUsername/Mental-Health-Detection-Using-ANN-and-Fuzzy-Logic.git
+git clone https://github.com/kowshik301/Mental-Health-Detection-Using-ANN-and-Fuzzy-Logic.git
+```
 
+### Open the project
+
+```bash
 cd Mental-Health-Detection-Using-ANN-and-Fuzzy-Logic
 ```
 
-Install dependencies
+### Install required libraries
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run
+### Run the notebook
 
 ```bash
 jupyter notebook
 ```
 
----
-
-## Project Structure
+Open:
 
 ```
-Mental-Health-Detection-Using-ANN-and-Fuzzy-Logic/
-
-│
-├── dataset/
-├── documentation/
-├── images/
-├── models/
-├── results/
-├── mental_health_detection.ipynb
-├── README.md
-├── requirements.txt
-└── LICENSE
+notebooks/mental_health_detection.ipynb
 ```
 
 ---
 
-## Advantages
+## 📈 Expected Output
 
-- Handles uncertain medical information
-- Improves prediction accuracy
-- Easy to use
-- Low computational cost
-- Supports early diagnosis
+The system predicts the mental health condition of the user based on the provided inputs.
+
+Possible outcomes include:
+
+- Healthy
+- Moderate Risk
+- High Risk
 
 ---
 
-## Future Scope
+## 🔮 Future Scope
 
-- Mobile Application
 - Web Application
-- Real-time prediction
-- Chatbot Integration
+- Mobile Application
+- Real-time Monitoring
+- IoT Integration
 - Clinical Dataset Integration
+- Chatbot-based Mental Health Assistance
 
 ---
 
-## Authors
+## 👨‍💻 Author
 
-Kranthi Kowshik
+**Kranthi Kowshik**
 
-Department of Computer Science and Engineering
+B.Tech – Computer Science and Engineering
 
 ---
 
-## License
+## 📜 License
 
-This project is licensed under the MIT License.
+This project is developed for educational and research purposes.
